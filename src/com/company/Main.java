@@ -42,8 +42,36 @@ public class Main {
             // Yes this will run because by using the !(not) operator this makes both statements true and makes teh original operation correct.
 
         }
+        if (a < b) {
+            //Will this method run?
+            System.out.println("a < b");
+            //Yes, this method will run because the variable related to a is less than the variable related to b.
+
+        }
+        //not equal to
+        if (x != a) {
+
+            System.out.println("This works great!");
+        }
+            //greater than
+            if (b > a) {
+                System.out.println("This works perfect!");
+            }
+                //greater than or equal to
+                if (a >= y + 1) {
+                    System.out.println("This works good!");
+                }
+                    //equal to
+                    if (b == 4) {
+                        System.out.println("This works nice!");
+                    }
+
+
+
+        }
+
 
     }
 
-}
+
 
